@@ -1,0 +1,118 @@
+.new-expense-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+
+  font-size: large;
+
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.new-expense-input-info {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-left: 1rem;
+}
+
+.new-expense-button {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-expense-input-info label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense-input-info input {
+  font: inherit;
+
+  width: 15rem;
+  max-width: 100%;
+  padding: 0.5rem;
+
+  border-radius: 6px;
+  border-style: none;
+}
+
+@media (max-width: 900px) {
+  .new-expense-input-container {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .new-expense-input-info label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+
+  .new-expense-input-info input {
+    width: 12rem;
+    max-width: 100%;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 721px) {
+  .new-expense-input-container {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .new-expense-input-info label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+
+  .new-expense-input-info input {
+    width: 10rem;
+    max-width: 90%;
+    padding: 0.4rem;
+  }
+  .new-expense-button {
+    max-width: 99%;
+  }
+}
+
+@media (max-width: 581px) {
+  .new-expense-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 0.5rem;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .new-expense-input-info label {
+    margin-bottom: 0.3rem;
+  }
+
+  .new-expense-input-info input {
+    width: 9rem;
+    max-width: 100%;
+    padding: 0.4rem;
+  }
+  .new-expense-button {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.5rem;
+  }
+}

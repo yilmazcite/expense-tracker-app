@@ -1,0 +1,64 @@
+.new-expense {
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem 0.3rem;
+  margin: 2rem auto;
+
+  width: 70rem;
+  max-width: 95%;
+
+  background-color: rgb(192, 65, 65);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.new-expense button {
+  cursor: pointer;
+
+  padding: 0.5rem 1rem;
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: medium;
+
+  border-radius: 0.5rem;
+  border-style: none;
+
+  background-color: rgb(17, 202, 178);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background-color: rgb(36, 163, 146);
+}
+
+.new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+}
+
+@media (max-width: 581px) {
+  .new-expense {
+    padding: 0.5rem 0.1rem;
+    margin: 0.5rem auto;
+
+    width: 95%;
+  }
+}
+
+@media (max-width: 481px) {
+  .new-expense {
+    padding: 0.4rem 0;
+    margin: 0.3rem auto;
+
+    width: 95%;
+  }
+}
