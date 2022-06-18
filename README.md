@@ -1,3 +1,11 @@
+# Expense Tracker App
+
+<li>This is the second project I have completed while learning React.</li>
+
+<li>It's a simple expense tracker app that enables the user to type in the details of an expense, select a year, and keep track of the expenses made annually.</li>
+
+<b>Check the app at</b> https://yilmazcite.github.io/expense-tracker-app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
